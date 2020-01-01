@@ -6,7 +6,7 @@ The following sorting algorithms are present in this repository:
 
 
 
-
+___
 ## Criteria for analysing sorting algorithms  
 * Number of comparisons
 * Number of swaps
