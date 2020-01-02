@@ -1,7 +1,8 @@
 # SORTING ALGORITHMS
 The following sorting algorithms are present in this repository:  
     - Bubble sort  
-    - 
+    - Insertion sort  
+    - Selection sort
 
 
 
