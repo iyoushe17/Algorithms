@@ -13,8 +13,8 @@
 #include <iostream>
 
 void insertion (int A[], int size) {
-    int temp = 0, val = 0, hole = 0;
-    for (int i=1; i<size-1; i++) {
+    int val = 0, hole = 0;
+    for (int i=1; i<size; i++) {
         val = A[i];
         hole = i;
         while (hole > 0 && A[hole - 1] > val) {
