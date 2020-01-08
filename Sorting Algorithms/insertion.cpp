@@ -2,10 +2,8 @@
 * INSERTION SORT                                                                                                         *
 *                                                                                                                        *
 * ADAPTIVE: true                                                                                                         *
-* Bubble sort is not adaptive by nature. But it can be converted to an adaptive algorithm using a flag variable.         *
 * STABLE: true                                                                                                           *
-* Bubble sort is stable since it does not interchange the places of originial elements. It performs a swap only          *
-* when needed.                                                                                                           *
+* Insertion sort is stable since it does not shift the element if it is equal.                                           *
 * COMPLEXITY: O(n²)                                                                                                      *
 * ASSUMPTION: For insertion sort, we assume that the first element is already in sorted order                            *
 *************************************************************************************************************************/
