@@ -1,13 +1,13 @@
 /*************************************************************************************************************************
 * SELECTION SORT                                                                                                         *
 *                                                                                                                        *
-* ADAPTIVE: false. Even if list is sorted, the algorithm would take the same time.                                       *
-* STABLE: false, it does not preserve the order of elements                                                              *
+* ADAPTIVE: False. Even if list is sorted, the algorithm would take the same time.                                       *
+* STABLE: False. It does not preserve the order of elements.                                                             *
 * COMPLEXITY: O(n²)                                                                                                      *
 * NUMBER OF COMPARISONS:                                                                                                 *
-* NUMBER OF SWAPS:                                                                                                       *
+* NUMBER OF SWAPS: n - 1                                                                                                 *
 * INTERMEDIATE STEP: Intermediate steps are useful as k steps would give k smallest elements.                            *
-* Selection sort is the only sorting technique with the least number of swaps                                            *
+* Selection sort is the only sorting technique with the least number of swaps.                                           *
 *************************************************************************************************************************/
 
 #include <iostream>
