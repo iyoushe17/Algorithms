@@ -1,16 +1,13 @@
 /*************************************************************************************************************************
-* MERGE SORT                                                                                                         *
+* MERGE SORT                                                                                                             *
 *                                                                                                                        *
 * ADAPTIVE: False. Even if list is sorted, the algorithm would take the same time.                                       *
 * STABLE: False. It does not preserve the order of elements.                                                             *
-* COMPLEXITY: O(nlogn)                                                                                                      *
+* COMPLEXITY: O(nlogn)                                                                                                   *
 * NUMBER OF COMPARISONS:                                                                                                 *
-* NUMBER OF SWAPS: n - 1                                                                                                 *
-* INTERMEDIATE STEP: Intermediate steps are useful as k steps would give k smallest elements.                            *
-* Selection sort is the only sorting technique with the least number of swaps.                                           *
+* NUMBER OF SWAPS: 0                                                                                                     *
+* INTERMEDIATE STEP: Not useful as the list is partially sorted at a given time                                          *
 *************************************************************************************************************************/
-//M-way merging
-//iterative and recursive merge sort
 #include <iostream>
 
 void merge(int A[], int l, int mid, int h) {
