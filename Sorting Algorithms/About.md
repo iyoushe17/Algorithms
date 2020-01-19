@@ -5,6 +5,7 @@ The following sorting algorithms are present in this repository:
     - Selection sort  
     - Merge sort  
     - Quick sort
+    - Count sort
 
 
 
