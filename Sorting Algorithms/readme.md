@@ -4,7 +4,7 @@ The following sorting algorithms are present in this repository:
     - Insertion sort  
     - Selection sort  
     - Merge sort  
-    - Quick sort
+    - Quick sort  
     - Count sort
 
 
